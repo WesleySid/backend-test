@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/3197855770.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- axios HTML -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blob</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <!-- axios HTML -->
+  </head>
+  <body>
+    <header>
+      <h1>Mon portfolio</h1>
+    </header>
+    <main class="main-block">
+      <nav>
+        <a href="">A propos de moi</a>
+        <a href="">Formation</a>
+        <a href="">Projets</a>
+        <a href="">Contact</a>
+      </nav>
+      <div class="desktop">
+        <img src="./img/martin-clapp-uglyfish-v14.jpg" alt="" />
+      </div>
+      <section class="about-me">
+        <div class="profile">
+          <img
+            src="./img/main-qimg-d9acc5dbdb859005ae1499fe09d3d6fc-lq.jpeg"
+            alt=""
+          />
+          <div class="infotext">
+            <p class="my-name">Wesley Blob</p>
+            <p class="city">Paris</p>
+          </div>
+        </div>
+        <div class="blabla">
+          <h2>À propos de moi</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore
+            cupiditate dolore et asperiores fugiat, eum cumque ea corporis
+            suscipit eligendi possimus voluptate odio natus cum quaerat optio
+            modi reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Iste labore cupiditate dolore et asperiores fugiat, eum cumque
+            ea corporis suscipit eligendi possimus voluptate odio natus cum
+            quaerat optio modi reiciendis.
+          </p>
+        </div>
+      </section>
+      <section class="Formation">
+        <h3>Formation</h3>
+
+        <p class="techno">
+          Les technologies sur lesquelles je me forme actuellement :
+        </p>
+
+        <div class="icones">
+          <img src="./img/1179be5d65e9132d13cfa8326042961e.jpg" alt="" />
+          <img
+            src="./img/360_F_180286705_9BexmHS7Gaemz6Ot3Et9eo4KCbkSCm5B.jpg"
+            alt=""
+          />
+          <img src="./img/r1148054_14361852.jpg" alt="" />
+        </div>
+        <p>Prochainement, je suivrai la formation</p>
+        <span style="font-weight: bold">Développement Web & Mobile</span>
+        <p>au</p>
+        <span style="font-weight: bold">Reacteur</span>
+        <p>
+          afin de perfectionner mes connaissances et d'apprendre de nouvelles
+          technologies :
+        </p>
+
+        <div class="icones">
+          <img
+            src="./img/Facts-about-the-Ugliest-Fish-in-the-World.jpg"
+            alt=""
+          />
+          <img src="./img/images.jpeg" alt="" />
+        </div>
+      </section>
+      <section class="Projects">
+        <h3>Projets</h3>
+        <p>
+          Au cours de ma formation Développement Web & Mobile, je réaliserai
+          plusieurs répliques d'applications Web et d'applications Mobiles :
+        </p>
+        <div class="project">
+          <img src="./img/ugly-animals-pictures-lw8d3vw57p.jpg" alt="" />
+          <div class="projtext">
+            <h3>Singe</h3>
+            <h4>Front</h4>
+            <ul>
+              <li>pipi</li>
+              <li>popo</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./img/130911184743-ugly-animals-probos.jpg" alt="" />
+          <div class="projtext">
+            <h3>Singe moins moche</h3>
+            <h4>Full</h4>
+            <ul>
+              <li>pipi</li>
+              <li>popo</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./img/130911185736-ugly-animals-aye-ay.jpg" alt="" />
+          <div class="projtext">
+            <h3>Loki</h3>
+            <h4>Moche</h4>
+            <ul>
+              <li>pipi</li>
+              <li>popo</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="Contact">
+        <h3>Contactez-moi</h3>
+        <div class="contact-block">
+          <div class="link1">
+            <p><i class="fa-regular fa-envelope"></i>wesleysid@orange.fr</p>
+          </div>
+          <div class="link2">
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/">https://www.linkedin.com/</a>
+          </div>
+          <div class="link3">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/">https://github.com/</a>
+          </div>
+        </div>
+
+        <div class="formulaire">
+          <h2>Formulaire de contact</h2>
+          <form id="contactForm">
+            <input
+              type="text"
+              name="prénom"
+              id="prénom"
+              value=""
+              placeholder="Veuillez entrer votre prénom"
+            />
+            <br />
+            <input
+              type="text"
+              name="nom-de-famille"
+              id="nom-de-famille"
+              value=""
+              placeholder="Veuillez entrer votre nom de famille"
+            />
+            <br />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              value=""
+              placeholder="Email"
+            />
+            <br />
+            <input
+              type="text"
+              name="sujet"
+              id="sujet"
+              value=""
+              placeholder="De quoi voulez-vous me parler ?"
+            />
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Votre message ici..."
+            ></textarea>
+            <br />
+            <button type="submit">Envoyer le message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Projet réalisé par Wesley Blob</p>
+      <p>Préparation à la formation Développement Web & Mobile</p>
+      <a href="">Le Reacteur</a>
+    </footer>
+  </body>
+</html>
